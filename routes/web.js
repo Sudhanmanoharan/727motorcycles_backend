@@ -1,6 +1,5 @@
 const express = require('express');
 const emailService = require('../services/mailService');
-const whatsappService = require('../services/whatsappService');
 const router = express.Router();
 const chalk = require('chalk');
 

@@ -1,8 +1,4 @@
 
-const twilioAccount = {
-    accountSid: "AC5df9e2475d2cfc9a6bf9b610d924b15c",
-    authToken: "6a02b76e4c63059836bf553532264480"
-}
 const mailAuth = {
     "mailId": 'sudhanmanoharan@gmail.com',
     "pasword": 'bzlcjjyacfmdsjsy',
@@ -23,5 +19,4 @@ const portNumber = {
 module.exports = {
     mail: mailAuth,
     port: portNumber,
-    twilio: twilioAccount
 };
