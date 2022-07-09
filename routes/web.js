@@ -24,7 +24,6 @@ router.post("/check-price", (req, res) => {
             resData.message = err;
             res.send(resData);
         });
-        // whatsappService.sendwbm(req.body.mobileNumber).then()
     }
 });
 
