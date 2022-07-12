@@ -1,4 +1,3 @@
-
 const mailAuth = {
     "mailId": 'sudhanmanoharan@gmail.com',
     "pasword": 'bzlcjjyacfmdsjsy',
@@ -6,11 +5,9 @@ const mailAuth = {
     'from_mail_id': 'sudhanmanoharan@gmail.com'
 };
 
-// 727motorcycle@gmail.com
-// Royal@7227
-// 9445577727
-// whats app number 9445577727
-// twillo password = 727motorcycle@7227
+const Token = "5593603382:AAGUIU97D3QT57tZsKCEMg7ro-eCeqK_TXM";
+const TelegramURL = `https://api.telegram.org/bot${Token}/sendMessage`;
+const CHAT_ID = 2023722483;
 
 const portNumber = {
     "port": 3000
@@ -19,4 +16,7 @@ const portNumber = {
 module.exports = {
     mail: mailAuth,
     port: portNumber,
+    telegramToken: Token,
+    telegramURL: TelegramURL,
+    telegramChatId: CHAT_ID
 };
