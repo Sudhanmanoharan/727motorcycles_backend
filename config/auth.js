@@ -1,8 +1,8 @@
 const mailAuth = {
-    "mailId": 'sudhanmanoharan@gmail.com',
+    "mailId": '727motorcycle@gmail.com',
     "pasword": 'bzlcjjyacfmdsjsy',
     "service_provider": 'gmail',
-    'from_mail_id': 'sudhanmanoharan@gmail.com'
+    'from_mail_id': '727motorcycle@gmail.com'
 };
 
 const Token = "5593603382:AAGUIU97D3QT57tZsKCEMg7ro-eCeqK_TXM";
