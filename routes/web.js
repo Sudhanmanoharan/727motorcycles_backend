@@ -27,7 +27,6 @@ router.post("/check-price", (req, res) => {
             '<br>' +
             '727Motorcycles'
 
-            console.log("email service");
         emailService.mail(userDetails).then((mailRes) => {
             resData.result = 'Success';
             resData.message = 'Your price request sended succesfully';

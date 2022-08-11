@@ -22,10 +22,8 @@ function sendMail(htmlDetails) {
 
         transporter.sendMail(mailOptions, function (error, info) {
             if (error) {
-                console.log("error ---> ", error);
                 resData.result = 'Failure';
                 reject(resData);
-
             } else {
                 resData.result = 'Success';
                 resolve(resData);

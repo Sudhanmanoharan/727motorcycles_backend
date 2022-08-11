@@ -1,6 +1,6 @@
 const mailAuth = {
     "mailId": '727motorcycle@gmail.com',
-    "pasword": 'oqswyjgavekkdocr',
+    "pasword": 'nopfptipweebjisl',
     "service_provider": 'gmail',
     'from_mail_id': '727motorcycle@gmail.com'
 };
